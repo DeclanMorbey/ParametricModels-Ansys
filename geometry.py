@@ -11,5 +11,5 @@ for i in range(1,100):
     my_shape = paramak.ExtrudeCircleShape(points=[(50,0)], radius=radius, distance=length)
     my_shape.export_stp('geometry/stp_files/'+str(i)+'.stp')
     my_shape.export_2d_image('geometry/png_files/'+str(i)+'.png')
-    my_shape.export_html_3d('geometry/html_files/'+str(i)+'.html')
+    my_shape.export_html_3d('geometry/html_files_3d/'+str(i)+'.html')
 

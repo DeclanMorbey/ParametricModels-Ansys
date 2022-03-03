@@ -1,0 +1,5 @@
+Collecting brep_part_finder
+  Downloading brep_part_finder-0.4.1-py3-none-any.whl (6.4 kB)
+Requirement already satisfied: numpy>=1.21.1 in /home/decmorbey/.local/lib/python3.8/site-packages (from brep_part_finder) (1.22.2)
+Installing collected packages: brep_part_finder
+Successfully installed brep_part_finder-0.4.1

@@ -5,7 +5,7 @@ import numpy as np
 
 # geometry
 # class ExtrudeCircleShape(distance, radius, extrusion_start_offset=0.0, rotation_angle=360, extrude_both=True, color=(0.984, 0.603, 0.6), name='extrudecircleshape', **kwargs)
-for i in range(1,100):
+for i in range(1,10):
     radius = 5
     length = i # np.random.randint(1,100)
     my_shape = paramak.ExtrudeCircleShape(points=[(50,0)], radius=radius, distance=length)
